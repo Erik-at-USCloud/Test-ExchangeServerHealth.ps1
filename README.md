@@ -85,11 +85,12 @@ http://exchangeserverpro.com/powershell-script-exchange-server-health-check-repo
 
 ## Credits
 Adapted from code written by: Paul Cunningham
+
 Updaterd by: Erik Olsen
 
 Find me on:  
 * Github:  https://github.com/Erik-at-USCloud
-* LinkedIn:  
+* LinkedIn:  https://www.linkedin.com/in/erik-olsen-stl/
 
 Find Paul Cunningham on:
 
