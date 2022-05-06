@@ -5,6 +5,8 @@ Performs a series of health checks on Exchange servers and DAGs and outputs the 
 
 **Please note:** This script has slowly degraded over time as new versions and builds of Exchange have been released. This script is no longer being maintained for bugs, however you are free to fork the project to apply your own bug fixes and improvements to suit your needs.
 
+***NOTE FROM ERIK-AT-USCLOUD*** I am working on updating this script to work on Exchange 2016/2019.
+
 ## Usage
 
 Create an ignorelist.txt file in the same folder as the script to specify any servers, DAGs, or databases you want the script to ignore (eg test/dev servers).
@@ -82,18 +84,23 @@ Checks all servers in the organization, outputs the results to the shell window,
 http://exchangeserverpro.com/powershell-script-exchange-server-health-check-report
 
 ## Credits
-Written by: Paul Cunningham
+Adapted from code written by: Paul Cunningham
+Updaterd by: Erik Olsen
 
-Find me on:
+Find me on:  
+* Github:  https://github.com/Erik-at-USCloud
+* LinkedIn:  
+
+Find Paul Cunningham on:
 
 * My Blog:	https://paulcunningham.me
 * Twitter:	https://twitter.com/paulcunningham
 * LinkedIn:	https://au.linkedin.com/in/cunninghamp/
 * Github:	https://github.com/cunninghamp
 
-Check out my [books](https://paulcunningham.me/books/) and [courses](https://paulcunningham.me/training/) to learn more about Office 365 and Exchange Server.
+Check out Paul's [books](https://paulcunningham.me/books/) and [courses](https://paulcunningham.me/training/) to learn more about Office 365 and Exchange Server.
 
-Additional Credits (code contributions and testing):
+Additional Original Code Credits (code contributions and testing):
 - [Chris Brown](http://twitter.com/chrisbrownie)
 - Ingmar Brückner
 - John A. Eppright
@@ -103,3 +110,5 @@ Additional Credits (code contributions and testing):
 - Tony Holdgate
 - Ryan
 - [@andrewcr7](https://github.com/andrewcr7)
+
+Maintained by Erik Olsen @ US Cloud.
